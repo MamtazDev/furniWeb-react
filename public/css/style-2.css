@@ -1,0 +1,49 @@
+.header-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .sidebar {
+    width: 100%;
+  }
+  .fa-bars,
+  .fa-xmark {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-cus ul {
+    padding-left: 30px;
+  }
+}
+
+/*=====
+ function hideSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.style.display = 'none';
+}
+
+// Hide the sidebar when the window is loaded
+window.addEventListener('load', hideSidebar);
+
+// Function to toggle the sidebar's visibility
+function toggleSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  if (sidebar.style.display !== 'flex') {
+      sidebar.style.display = 'flex';
+  } else {
+      sidebar.style.display = 'none';
+  }
+} 
+=======*/
