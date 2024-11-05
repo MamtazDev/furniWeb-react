@@ -5,6 +5,9 @@ import Home from "../Pages/Home/home";
 import About from "../Pages/About/About";
 import Shop from "../Pages/Shop/Shop";
 import ShopDetails from "../Pages/ShopDetsils.tsx/ShopDetails";
+import Blog from "../Pages/Blog/Blog";
+import BlogDetails from "../Pages/BlogDetails/BlogDetails";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -29,6 +32,18 @@ export const router = createBrowserRouter([
             {
                 path: '/shop-details',
                 element: <ShopDetails/>
+            },
+            {
+                path: '/blog',
+                element: <Blog/>
+            },
+            {
+                path: '/blog-details',
+                element: <BlogDetails/>
+            },
+            {
+                path: '/contact',
+                element: <Contact/>
             },
     
            
