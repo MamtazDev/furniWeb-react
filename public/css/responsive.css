@@ -183,6 +183,12 @@
     width: auto;
     height: auto;
   }
+  .res-img .seller-img {
+    max-width: none;
+    /* max-height: 100%;  */
+    width: auto;
+    height: auto;
+  }
   .title-text {
     padding-bottom: 54px;
   }
@@ -846,8 +852,7 @@
     line-height: 24px;
   }
   .testimonial-title {
-    padding-bottom: 50px;
-  }
+    padding-bottom: 50px;}
   .related-content {
     padding: 25px 0 0px 0;
   }

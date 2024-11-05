@@ -20,7 +20,7 @@ const Brand = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-lg-6 col-xl-6 brand-info">
+        <div className="col-12 col-lg-6 col-xl-6 brand-info" style={{paddingLeft:"100px"}}>
           <h2 className="fs-50 brand-title" style={{textTransform: 'uppercase'}}>We Are the Biggest
             Furniture
             Brand</h2>

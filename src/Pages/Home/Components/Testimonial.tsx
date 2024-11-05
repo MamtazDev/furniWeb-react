@@ -9,21 +9,23 @@ const Testimonial = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        arrows: false // You can enable or disable arrows as needed
+        arrows: false,
+        centerMode: true, // Enables centered slides
+        centerPadding: "30px"
     };
 
     return (
-        <div className="testimonial">
+        <div className="testimonial" style={{marginTop:"100px"}}>
             <div className="container">
                 <div className="testimonial_area">
                     <h2 className="fs-50 testimonial-title" style={{ textTransform: 'uppercase' }}>Testimonial</h2>
                     <Slider {...settings} className="testimonial-slider">
                         {/* Slide 1 */}
-                        <div className="testimonial-slider-content">
+                        <div className="testimonial-slider-content" style={{maxHeight:"537px"}}>
                             <div className="row">
                                 <div className="col-6 pe-0">
                                     <div className="content-info">
@@ -44,7 +46,7 @@ const Testimonial = () => {
                             </div>
                         </div>
                         {/* Slide 2 */}
-                        <div className="testimonial-slider-content">
+                        <div className="testimonial-slider-content" style={{maxHeight:"537px"}}>
                             <div className="row">
                                 <div className="col-6 pe-0">
                                     <div className="content-info">
