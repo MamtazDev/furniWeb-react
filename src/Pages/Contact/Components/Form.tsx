@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Form = () => {
     return ( 
@@ -32,9 +33,9 @@ const Form = () => {
         </div>
       </div>
       <div className="messege-button">
-        <a href="#">
+        <Link to="#">
           <button className="button btn_light ">
-            Send message</button></a>
+            Send message</button></Link>
       </div>
     </form>
   </section>

@@ -9,10 +9,11 @@ import React from "react";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const WeekSection = () => {
   return (
-    <div className="week_section" >
+    <div className="week_section" style={{marginBottom:'100px'}}>
       <div className="container">
         <div className="week_area">
           {/* same css */}
@@ -26,9 +27,9 @@ const WeekSection = () => {
               </h2>
             </div>
             <div className="btn-area">
-              <a href="#">
+              <Link to="/shop">
                 <button className="button btn_light"> View more</button>
-              </a>
+              </Link>
             </div>
           </div>
           {/* same css */}

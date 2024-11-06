@@ -625,7 +625,16 @@ li.slick-active {
 /* .testimonial-slider-content:hover {
   transform: translateY(-10px);
 } */
-
+.related-product-slider button.slick-prev.slick-arrow{
+  background-color: none !important;
+  color:black !important;
+}
+.related-product-slider button.slick-next.slick-arrow{
+  background-color: none!important;
+}
+.slick-prev:before, .slick-next:before{
+  color: black !important;
+}
 .row {
   display: flex;
   flex-wrap: nowrap;

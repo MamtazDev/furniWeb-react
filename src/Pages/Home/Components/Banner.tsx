@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   // Slider settings
@@ -44,12 +45,12 @@ const Banner = () => {
                 Elevate your home with our minimalist designs.
               </p>
               <div className="btn-group">
-                <a href="# ">
+                <Link to="/shop ">
                   <button className="button btn_dark" type="submit">
                     Shop Now
                   </button>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/shop">
                   <button className="button btn_light">
                     <i
                       className="fa-regular fa-circle-play"
@@ -57,7 +58,7 @@ const Banner = () => {
                     />
                     Watch Video
                   </button>
-                </a>
+                </Link>
               </div>
               <div className="color-2"></div>
             </div>

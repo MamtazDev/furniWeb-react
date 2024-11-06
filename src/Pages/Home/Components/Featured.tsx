@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Featured = () => {
     return (
@@ -12,9 +13,9 @@ const Featured = () => {
           Congue nisi vitae suscipit tellus.</p>
       </div>
       <div className="btn-area">
-        <a href="#">
+        <Link to="/shop">
           <button className="button btn_light"> View more</button>
-        </a>
+        </Link>
       </div>
     </div>
     <div className="row g-4">
@@ -24,12 +25,13 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/hv23Fr04/feature-img-1.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+           
               <button className="button btn_white" type="submit">Living Room</button>
-            </a>
-            <a href="#">
+          
+            
+          
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+          
           </div>
         </div>
       </div>
@@ -39,12 +41,11 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/ZYHQybhk/feature-img-2.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+         
               <button className="button btn_white" type="submit">Dining &amp; Kitchen</button>
-            </a>
-            <a href="#">
+           
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+            
           </div>
         </div>
       </div>
@@ -54,12 +55,12 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/TYHHCtwC/feature-img-3.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+      
               <button className="button btn_white" type="submit">Storage &amp; Modular</button>
-            </a>
-            <a href="#">
+       
+          
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+       
           </div>
         </div>
       </div>
@@ -69,12 +70,11 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/1X3JKF1k/feature-img-4.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+      
               <button className="button btn_white" type="submit">Bedroom</button>
-            </a>
-            <a href="#">
+          
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+          
           </div>
         </div>
       </div>
@@ -84,12 +84,11 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/tCf2h7Sc/feature-img-5.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+      
               <button className="button btn_white" type="submit">Home Office</button>
-            </a>
-            <a href="#">
+         
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+           
           </div>
         </div>
       </div>
@@ -99,12 +98,11 @@ const Featured = () => {
             <img className="img-fluid" src="https://i.postimg.cc/TPcVHP0f/feature-img-6.png" alt="img" />
           </div>
           <div className="feature-btn">
-            <a href="# ">
+      
               <button className="button btn_white" type="submit">Out Door</button>
-            </a>
-            <a href="#">
+         
               <button className="button btn_arrow"><i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+           
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Testimonial = () => {
     };
 
     return (
-        <div className="testimonial" style={{marginTop:"100px"}}>
+        <div className="testimonial">
             <div className="container">
                 <div className="testimonial_area">
                     <h2 className="fs-50 testimonial-title" style={{ textTransform: 'uppercase' }}>Testimonial</h2>

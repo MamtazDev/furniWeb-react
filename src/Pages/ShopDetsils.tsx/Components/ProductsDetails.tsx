@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const ProductsDetails = () => {
     const images = [
-        "https://i.postimg.cc/ncY1DgYg/product-dtls-1.png",
+       
         "https://i.postimg.cc/5tj5D0dW/product-dtls-2.png",
         "https://i.postimg.cc/VNT9w8mr/product-dtls-3.png",
         "https://i.postimg.cc/kGPxVvV7/product-dtls-4.png",
@@ -25,7 +26,7 @@ const ProductsDetails = () => {
                 <div className="product-details-area">
                     <div className="row product-res">
                         <div className="col-lg-6">
-                            <div className="product-slider" style={{ position: 'relative' }}>
+                            <div className="product-slider" style={{ position: 'relative' ,maxHeight:"640px"}}>
                                 <div className="product-slider-content">
                                     <img
                                         className="img-fluid w-100 pb-2"
@@ -92,11 +93,7 @@ const ProductsDetails = () => {
                                 <h4 className="fs-40 description-sub">$ 80.00</h4>
                                 <p className="fs-18-thin description-text">
                                     The rich color and buttery softness of top-grain leather brings sleek sophistication to the breezy ease and modern attitude of our Oceanside swivel chair. 
-                                    The wrap-around flow from arm to back gives it a neat,
-                                    <span id="more" style={{display: 'none'}}>
-                                        contemporary look. With its swivel feature, it offers flexibility and comfort, making it perfect for lounging or entertaining guests.
-                                    </span>
-                                    <a href="javascript:void(0);" id="read-more-link">Read More...</a>
+                                    <Link to="javascript:void(0);" id="read-more-link">Read More...</Link>
                                 </p>
                                 <div className="color-parent">
                                     <span className="fs-20">Color :</span>
@@ -110,9 +107,9 @@ const ProductsDetails = () => {
                                         <span id="count">0</span>
                                         <button id="plus">+</button>
                                     </div>
-                                    <a href="# ">
+                                    <Link to="# ">
                                         <button className="button btn_dark" type="submit">ADD TO CART</button>
-                                    </a>
+                                    </Link>
                                     <button id="loveButton" className="regularButton">
                                         <i id="heartIcon" className="far fa-heart" />
                                     </button>

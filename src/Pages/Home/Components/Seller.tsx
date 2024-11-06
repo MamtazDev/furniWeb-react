@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS CSS
+import { Link } from 'react-router-dom';
 
 
 const Seller = () => {
@@ -17,10 +18,10 @@ const Seller = () => {
           <h2 className="fs-50 seller-title" style={{textTransform: 'uppercase'}}>Best Seller</h2>
         </div>
         <div className="btn-area">
-          <a href="#">
+          <Link to="/shop">
             <button className="button btn_light"> View
               more</button>
-          </a>
+          </Link>
         </div>
       </div>
       {/* same css */}

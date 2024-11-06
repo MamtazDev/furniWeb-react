@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -6,8 +7,8 @@ const Banner = () => {
   <div className="container">
     <div className="blog-details-area">
       <div className="blog-details-button text-center">
-        <a href="#">
-          <button className="button btn_light">FURNITURE</button> </a>
+        <Link to="/about"><button className="button btn_light">FURNITURE</button></Link>
+       
       </div>
       <h2 className="fs-50 blog-details-title">Modern Studio Apartment Design Bedroom <br className="d-none d-lg-block" />
         and Living Space.</h2>
@@ -39,12 +40,12 @@ const Banner = () => {
         {/* null */}
       </div>
       <div className="prev-next-button-parent">
-        <a href="#">
+        <Link to="#">
           <button className="button btn_light_gray"><i className="fa-solid fa-arrow-left-long" />  Previous</button>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="#">
           <button className="button btn_light_gray light_yellow">Next   <i className="fa-solid fa-arrow-right-long" /></button>
-        </a>
+        </Link>
       </div> 
     </div>
   </div>

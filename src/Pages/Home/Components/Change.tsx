@@ -102,12 +102,12 @@ const Change = () => {
                         visualization experience and offer design tips to
                         customers.
                       </p>
-                      <a href="#">
+                      <Link to="/shop       ">
                         <button className="button btn_light">
                           VIEW COLLECTION{" "}
                           <i className="fa-solid fa-arrow-right-long" />
                         </button>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -148,12 +148,12 @@ const Change = () => {
                         visualization experience and offer design tips to
                         customers.
                       </p>
-                      <a href="#">
+                      <Link to="/shop">
                         <button className="button btn_light">
                           VIEW COLLECTION{" "}
                           <i className="fa-solid fa-arrow-right-long" />
                         </button>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

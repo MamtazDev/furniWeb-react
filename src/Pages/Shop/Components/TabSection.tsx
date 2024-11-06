@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProductCard from './ProductCard'; // Adjust the path as necessary
+import { Link } from 'react-router-dom';
 
 const products = {
   "category-1": [
@@ -85,21 +86,21 @@ const TabSection = () => {
             <nav aria-label="Page navigation example">
               <ul className="pagination">
                 <li className="page-item">
-                  <a className="page-link" href="#" aria-label="Previous" onClick={() => handlePageChange(currentPage > 1 ? currentPage - 1 : 1)}>
+                  <Link className="page-link" to="#" aria-label="Previous" onClick={() => handlePageChange(currentPage > 1 ? currentPage - 1 : 1)}>
                     <span aria-hidden="true">«</span>
-                  </a>
+                  </Link>
                 </li>
                 {[...Array(totalPages)].map((_, index) => (
                   <li className="page-item" key={index}>
-                    <a className={`page-link ${currentPage === index + 1 ? 'active' : ''}`} href="#" onClick={() => handlePageChange(index + 1)} style={{backgroundColor:"#eff422" ,color:"black" ,border:"none" ,width:"60px" ,height:"60px" ,display:"flex"}}>
+                    <Link className={`page-link ${currentPage === index + 1 ? 'active' : ''}`} to="#" onClick={() => handlePageChange(index + 1)} style={{backgroundColor:"#eff422" ,color:"black" ,border:"none" ,width:"60px" ,height:"60px" ,display:"flex"}}>
                       {index + 1}
-                    </a>
+                    </Link>
                   </li>
                 ))}
                 <li className="page-item">
-                  <a className="page-link" href="#" aria-label="Next" onClick={() => handlePageChange(currentPage < totalPages ? currentPage + 1 : totalPages)} >
+                  <Link className="page-link" to="#" aria-label="Next" onClick={() => handlePageChange(currentPage < totalPages ? currentPage + 1 : totalPages)} >
                     <span aria-hidden="true">»</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

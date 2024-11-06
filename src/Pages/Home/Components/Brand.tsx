@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Brand = () => {
     return (
@@ -46,9 +47,9 @@ const Brand = () => {
                 <br className="d-none d-lg-block" />
                 the World</p>
             </div>
-            <a href="#">
+            <Link to="/about">
               <button className="button btn_light">Learn More <i className="fa-solid fa-arrow-right-long" /></button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

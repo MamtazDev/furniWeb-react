@@ -10,10 +10,6 @@ import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 import Contact from "../Pages/Contact/Contact";
 import Home from "../Pages/Home";
 
-
-
-
-
 export const router = createBrowserRouter([
     {
         path: '/',
