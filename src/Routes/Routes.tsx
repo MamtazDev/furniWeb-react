@@ -1,13 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import React from "react";
-import Home from "../Pages/Home/home";
+
 import About from "../Pages/About/About";
 import Shop from "../Pages/Shop/Shop";
 import ShopDetails from "../Pages/ShopDetsils.tsx/ShopDetails";
 import Blog from "../Pages/Blog/Blog";
 import BlogDetails from "../Pages/BlogDetails/BlogDetails";
 import Contact from "../Pages/Contact/Contact";
+import Home from "../Pages/Home";
+
 
 
 
