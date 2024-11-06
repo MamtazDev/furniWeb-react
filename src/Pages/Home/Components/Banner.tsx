@@ -2,11 +2,11 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="hero_section">
+    <div className="hero_section main_section">
       <div className="container">
         <div className="hero-area">
           <div className="color"></div>
-          <div className="row">
+          <div className="row" style={{paddingTop:"110px"}}>
             <div className="col-lg-6">
               <h2 className="hero-title">
                 <img className="img-fluid" src="https://i.postimg.cc/FsGL06Tn/lamp.png" alt="img" />
@@ -31,7 +31,7 @@ const Banner = () => {
                 </a>
                 <a href="#">
                   <button className="button btn_light">
-                    <i className="fa-regular fa-circle-play" />
+                    <i className="fa-regular fa-circle-play" style={{marginRight:"4px"}}/>
                     Watch Video
                   </button>
                 </a>

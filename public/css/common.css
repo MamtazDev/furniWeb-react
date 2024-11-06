@@ -478,7 +478,7 @@ li.slick-active {
 }
 
 
-.footer-menu-2 .form-control {
+.footer-menu-2 .footer-form-control {
   /* -bs-border-radius: 10px; 
     /* border: 1px solid var(--Text-Color-3, #b9b9b9); */
   /* background: var(--Other-Color-6, #f1f4fc); */
@@ -622,9 +622,9 @@ li.slick-active {
   padding: 53px 13px 56px 32px;
   height: 100%;
 }
-.testimonial-slider-content:hover {
+/* .testimonial-slider-content:hover {
   transform: translateY(-10px);
-}
+} */
 
 .row {
   display: flex;

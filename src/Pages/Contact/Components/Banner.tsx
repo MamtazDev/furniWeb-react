@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className="contact-us-section">
+   <div className="contact-us-section">
   <div className="container" style={{maxWidth: 1200}}>
     <div className="contact-us-area">
       <h2 className="fs-50 contact-us-title">CONTACT US</h2>
@@ -29,6 +29,7 @@ const Banner = () => {
     </div>
   </div>
 </div>
+
 
     );
 };

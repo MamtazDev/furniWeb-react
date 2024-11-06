@@ -516,7 +516,7 @@ button.slick-prev.slick-arrow:hover {
 }
 
 .progress-bar.rounded {
-  border-radius: 20px; /* Adjust the border-radius as needed */
+  border-radius: 20px !important;  /* Adjust the border-radius as needed */
   animation: progressAnimation 3s ease forwards;
 }
 @keyframes progressAnimation {
@@ -535,9 +535,9 @@ button.slick-prev.slick-arrow:hover {
 }
 .progress,
 .progress-stacked {
-  border-radius: 100px;
-  background: #eee;
-  --bs-progress-height: 5px;
+  border-radius: 100px !important;
+  background: #eee !important;
+  --bs-progress-height: 5px !important;
 }
 .progress-bar.rounded {
   animation: progressAnimation 3s ease forwards;
@@ -1008,11 +1008,12 @@ border: 1px solid #EFF422;
 /* =======contact css end ======*/
 
 .contact-us-section{
-  background-image: url(../images/contact-us-bg.png);
-  background-position: center center;
+  background-image: url(https://i.postimg.cc/J7XFCQHp/contact-us-bg.png);
+  background-position: center ;
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 100px 0;
-  padding: 100px 0;
+  padding: 100px;
 
 }
 
@@ -1051,9 +1052,9 @@ justify-content: space-between;
   padding-bottom: 135px;
 }
 .form-control{
-  border: none;
-  border-bottom: 1px solid #BBB;
-  border-radius: 0;
+  border: none !important;
+  border-bottom: 1px solid #BBB !important;
+  border-radius: 0 !important;
   padding: 0;
   margin-bottom: 64px;
 }
@@ -1062,3 +1063,10 @@ justify-content: space-between;
 }
 /* =======contact css start ======*/
 
+.main_section {
+  background: var(
+    --Linear-Color-02,
+    linear-gradient(188deg, #f6f6ef 3.29%, #e9eadd 96.52%)
+  );
+  position: relative;
+}

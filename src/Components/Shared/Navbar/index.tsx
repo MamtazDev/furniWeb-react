@@ -1,10 +1,28 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { navLinks } from "../../../utils/data";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  // Check if the current path is the home page
+  const isHomePage = location.pathname === "/";
+
   return (
-    <div className="header__section">
+    <div
+      className="header__section"
+      style={
+        isHomePage
+          ? {
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              zIndex: 10, // Only apply these styles on the home page
+            }
+          : {}
+      }
+    >
       <div className="container">
         <div className="header__area">
           <div className="nav__bar">

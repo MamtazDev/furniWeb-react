@@ -1,11 +1,10 @@
 import React from 'react';
 
 const Form = () => {
-    return (
-       
-  <div className="container">
+    return ( 
+   <div className="container">
   <section className="contact-wrap">
-    <h2 className="fs-50 form-title">Let’s Talk</h2>
+    <h2 className="fs-50 form-title">{`Let’s Talk`}</h2>
     <form action="#" className="contact-form">
       <div className="row">
         <div className="col-sm-6">
@@ -40,7 +39,6 @@ const Form = () => {
     </form>
   </section>
 </div>
-
     );
 };
 

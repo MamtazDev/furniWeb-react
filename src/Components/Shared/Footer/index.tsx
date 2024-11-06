@@ -48,7 +48,7 @@ const Footer = () => {
               <div className="footer-menu-2">
                 <p className="company-title">Stay up to date</p>
                 <form className="email_field">
-                  <input required type="email" className="form-control" placeholder="Your email address" />
+                  <input required type="email" className="footer-form-control" placeholder="Your email address" />
                   <button className="button yellow" type="submit">Send</button>
                 </form>
               </div>

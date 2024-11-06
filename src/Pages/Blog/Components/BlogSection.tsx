@@ -24,8 +24,7 @@ const BlogSection = () => {
                   </a>  
                   <button className="button btn_WHITE" type="submit">FURNITURE</button>
                 </div>
-                <h4 className="fs-34 blog-content-title">Modern studio apartment design bedroom <br className="d-none d-lg-block" />
-                  and living space. </h4>
+                <h4 className="fs-34 blog-content-title">Modern studio apartment design bedroom </h4>
                 <p className="fs-20-thin blog-content-text">Cursus vitae congue mauris rhoncus. Amet est placerat in <br className="d-none d-lg-block" /> egestas erat. Pharetra magna ac placerat vestibulum lectus.</p>
               </div>
               <div className="col-lg-6">
@@ -90,8 +89,7 @@ const BlogSection = () => {
                   </a>  
                   <button className="button btn_WHITE" type="submit">FURNITURE</button>
                 </div>
-                <h4 className="fs-34 blog-content-title">How to protect wooden furniture, especially  <br className="d-none d-lg-block" />
-                  when you don't have a shed</h4>
+                <h4 className="fs-34 blog-content-title">How to protect wooden furniture, especially </h4>
                 <p className="fs-20-thin blog-content-text">Cursus vitae congue mauris rhoncus. Amet est placerat in <br className="d-none d-lg-block" /> egestas erat. Pharetra magna ac placerat vestibulum lectus.</p>
               </div>
             </div>

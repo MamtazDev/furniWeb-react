@@ -10,7 +10,8 @@ const Banner = () => {
         infinite: true, // Infinite looping
         speed: 500, // Animation speed
         slidesToShow: 1, // Number of slides to show at once
-        slidesToScroll: 1 
+        slidesToScroll: 1 ,
+        arrows: false 
     }
     return (
        <div className="about_section">
