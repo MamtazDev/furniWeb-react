@@ -58,7 +58,7 @@ const Change = () => {
                       </p>
                       <Link to="/shop">
                         <button className="button btn_light">
-                          VIEW COLLECTION
+                          VIEW COLLECTION {" "}
                           <i className="fa-solid fa-arrow-right-long" />
                         </button>
                       </Link>
