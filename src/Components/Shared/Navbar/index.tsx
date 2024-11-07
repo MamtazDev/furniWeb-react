@@ -55,7 +55,7 @@ const Navbar = () => {
 
             {/* Cart Button */}
             <div className="nav__right">
-              <Link to="/cart">
+              <Link to="/shop">
                 <button type="button" className="btn_cart">
                   Cart <i className="fa-solid fa-cart-shopping" />
                 </button>

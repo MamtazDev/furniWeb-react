@@ -45,7 +45,7 @@ const Banner = () => {
                 Elevate your home with our minimalist designs.
               </p>
               <div className="btn-group">
-                <Link to="/shop ">
+                <Link to="/shop">
                   <button className="button btn_dark" type="submit">
                     Shop Now
                   </button>

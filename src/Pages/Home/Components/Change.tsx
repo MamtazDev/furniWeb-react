@@ -4,17 +4,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
+
+
 const Change = () => {
-  // Slider settings
+ 
   const settings = {
-    // Show navigation dots
-    infinite: true, // Infinite loop
-    speed: 500, // Slide transition speed in ms
-    slidesToShow: 1, // Number of slides to show
-    slidesToScroll: 1, // Number of slides to scroll
-    arrows: true, // Show navigation arrows
-    autoplay: true, // Enable auto sliding
-    autoplaySpeed: 3000, // Auto slide every 3 seconds
+    infinite: true,
+    speed: 500, 
+    slidesToShow: 1, 
+    slidesToScroll: 1,
+    arrows: true, 
+    autoplay: false, 
+    autoplaySpeed: 3000,
+    nextArrow: <button type="button" className="slick-next">Next</button>,
+    prevArrow: <button type="button" className="slick-prev">Previous</button>
   };
 
   return (
